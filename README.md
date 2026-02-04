@@ -1,7 +1,7 @@
 New README.md
 
 ```md
-# EnergyGrid Data Aggregator
+### EnergyGrid Data Aggregator
 
 This project is a client-server system that fetches and aggregates real-time telemetry data from 500 solar inverters while following strict API constraints such as rate limiting, batching, and security authentication.
 
@@ -9,7 +9,7 @@ It was developed as part of a coding assignment to demonstrate API integration, 
 
 ---
 
-## Project Overview
+### Project Overview
 
 The EnergyGrid API allows fetching data for a limited number of devices per request and enforces strict rate limits.  
 This project implements a Python-based client that communicates with a Node.js mock server and efficiently collects data for all devices.
@@ -24,7 +24,7 @@ Key challenges handled in this project:
 
 ---
 
-## Folder Structure
+### Folder Structure
 
 ```
 
@@ -43,7 +43,7 @@ energygrid-project/
 
 ---
 
-## Features
+### Features
 
 - Generates 500 dummy serial numbers
 - Splits them into batches of 10
@@ -55,7 +55,7 @@ energygrid-project/
 
 ---
 
-## Technologies Used
+### Technologies Used
 
 - Python (requests, hashlib, time)
 - Node.js (Express)
@@ -63,7 +63,7 @@ energygrid-project/
 
 ---
 
-## How It Works (Approach)
+### How It Works (Approach)
 
 1. Generate 500 serial numbers (SN-000 to SN-499)
 2. Divide them into batches of 10
@@ -81,7 +81,7 @@ This ensures maximum throughput while respecting API rules.
 
 ---
 
-## Setup and Installation
+### Setup and Installation
 
 ### Prerequisites
 
